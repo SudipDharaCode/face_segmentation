@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 
 
-model = YOLO(r"D:\Full_stack_ML\Internship\U\best.pt")
+model = YOLO("best.pt")
 
 def process_image(image):
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)  
